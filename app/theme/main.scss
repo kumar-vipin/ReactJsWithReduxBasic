@@ -1,0 +1,53 @@
+.mainContainer
+{
+  padding: 0;
+  margin: 0;
+  .userDetailsContainer
+  {
+    display: flex;
+    align-items: flex-start;
+    width: 260px;
+    box-shadow: 1px 1px 1px #aaa, 0 0 0 1px #eee;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #efefef;
+    .imageWrapper
+    {
+      width: 75px;
+      height: 75px;
+      background-color: #fff;
+      margin-right: 5px;
+      box-shadow: 0px 0px 2px #ccc;
+      img
+      {
+        width: 65px;
+        height: 65px;
+        margin: 5px;
+        background-color: #f3f3f3;
+      }
+    }
+    .userDetailsWrapper
+    {
+      font-size: 13px;
+      font-family: sans-serif;
+
+      .userName
+      {
+        width: 100%;
+        color: #555;
+        font-weight: bold;
+      }
+      .age
+      {
+        width: 100%;
+        color: #555;
+      }
+
+      .address
+      {
+        width: 100%;
+        color: #555;
+      }
+    }
+  }
+}
